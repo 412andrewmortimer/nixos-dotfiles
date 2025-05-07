@@ -25,6 +25,12 @@
                 environment.systemPackages = with pkgs; [
                   neovim
 		  git
+		  gcc
+		  lazygit
+		  fzf
+		  ripgrep
+		  fd
+		  curl
                 ];
                }
           ];

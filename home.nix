@@ -83,8 +83,8 @@ in
       init.defaultBranch = "main";
     };
   };  
-  programs.bash.enable = true;
-  programs.bash.shellAliases = myAliases;
+  # programs.bash.enable = true;
+  # programs.bash.shellAliases = myAliases;
   programs.zsh.enable = true;
   programs.zsh.shellAliases = myAliases;
   # Let Home Manager install and manage itself.
